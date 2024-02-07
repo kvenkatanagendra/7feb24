@@ -1,0 +1,173 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            const questions = document.querySelectorAll('.question');
+            
+      
+            questions.forEach(question => {
+                question.addEventListener('click', () => {
+                   
+                    const answer = question.nextElementSibling;
+
+                    
+                    if (answer.style.display === 'none') {
+                        answer.style.display = 'block';
+                    } else {
+                        answer.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+   
+    <style>
+          .question {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .answer {
+            display: none; 
+            margin-bottom: 10px;
+        }
+
+          
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1{color: orangered;}
+        header {
+            background-image: url(download.jfif);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color:dodgerblue;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 20px;
+            padding: 0 20px;
+        }
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 5px;
+        }
+        .product h2 {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+        .product p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+     <div style="margin-left:750px;">
+        <a href="Register.html"><button type="button" class="btn btn-primary">Register</button></a>
+        <a href="signin.html"><button type="button" class="btn btn-primary">login</button></a>
+       </div>
+    <header>
+        <h1>👨‍🎓BTECH WALA  Decoration </h1>
+        
+    </header>
+    
+    <nav>
+       
+            
+        <a href="index.html">Home</a>
+        <a href="service.html">Services</a>
+        <a href="about.html">About us</a>
+        <a href="offer.html">Discount</a>
+        <a href="Achivement.html">Achievement</a>
+        <a href="galary.html">Gallery</a>
+        <a href="video.html">Viodes</a>
+         <a href="blog.html">Blog</a>
+       
+        
+    </nav>
+    <center>
+   <h1>Frequently Asked Questions</h1>
+
+    
+    <div class="faq">
+        <div class="question">Q: How do I create an account on your website?</div>
+        <div class="answer">A: To create an account, click on the "REGISTER" button and follow the instructions.</div>
+    </div>
+
+    <div class="faq">
+        <div class="question">Q: What payment methods do you accept?</div>
+        <div class="answer">A: We accept payments via credit card, PayPal, and bank transfer.</div>
+    </div>
+
+    
+   
+
+    <div class="faq">
+        <div class="question">Q: Do you offer international Decoration?</div>
+        <div class="answer">A: Yes, we offer international  to select countries.</div>
+    </div>
+
+    <div class="faq">
+        <div class="question">Q: How can I track my order?</div>
+        <div class="answer">A: send your Address</div>
+    </div>
+
+   
+
+    <div class="faq-item">
+        <div class="question">Q: How do I contact customer support?</div>
+        <div class="answer">A: You can contact our customer support team by emailing support@example.com or calling +123-456-7890.</div>
+    </div>
+
+    <div class="faq">
+        <div class="question">Q: Can I cancel my order?</div>
+        <div class="answer">A: Yes, you can cancel your order before it has been two daysbefore. Please contact our customer support team to initiate the cancellation process.</div>
+    </div>
+
+    <div class="faq">
+        <div class="question">Q: Do you offer discounts for decoration?</div>
+        <div class="answer">A: Yes, we offer discounts for bulk orders. Please contact our  team for more information.</div>
+    </div>
+
+
+        
+        
+     <footer style="margin-top: 450px; color: crimson">
+         <nav> 
+         <a href="contac.html">contact us</a>
+              <a href="faq.html">FAQ</a>
+         <a href="helpandsupport.html">help & support</a></nav>
+        <p>&copy; All rights reserved.</p>
+    </footer></center></body>
+    </html>
